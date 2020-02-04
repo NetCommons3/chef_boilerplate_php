@@ -17,6 +17,8 @@
         <!-- Exclude the rule for static access like ClassRegistry::init('Foo');. -->
         <exclude name="StaticAccess" />
         <exclude name="ElseExpression" />
+        <exclude name="MissingImport" />
+        <exclude name="UndefinedVariable" />
     </rule>
     <rule ref="rulesets/codesize.xml" />
     <rule ref="rulesets/design.xml" />
